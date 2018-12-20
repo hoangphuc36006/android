@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">bt2</string>
+    <!--Comom-->
+    <string name="tv_change">Change</string>
+
+    <!--login-->
+    <string name="tv_login">login</string>
+
+    <!---->
+</resources>

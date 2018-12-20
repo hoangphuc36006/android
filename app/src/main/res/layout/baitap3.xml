@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/setting"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+
+        />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="130dp"
+        android:src="@drawable/avatar"
+        android:id="@+id/avtar2"
+        android:layout_below="@id/profile"
+        android:layout_marginLeft="25dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/profile"
+        android:layout_toRightOf="@id/avtar2"
+        android:id="@+id/linerBt3-chudam"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:paddingLeft="20dp"
+            android:text="36k"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:paddingLeft="20dp"
+            android:text="366"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:paddingLeft="20dp"
+            android:text="10"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/linerBt3-chudam"
+        android:layout_toRightOf="@id/avtar2"
+        android:id="@+id/linerBt3-chunhat"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="flower"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="flowing"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:text="dishers"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/avtar2"
+        android:layout_below="@id/linerBt3-chunhat"
+        android:id="@+id/button"
+        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="#cecece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="David BeckKham"
+        android:id="@+id/Name"
+        android:textStyle="bold"
+        android:layout_below="@id/avtar2"
+        />
+    <TextView
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/Name"
+        android:text="Da Nang - viet nam"
+        android:id="@+id/vitri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/vitri"
+        android:text="hello every one , i am beckham , and i love football very much , and i love vietnam"
+        android:id="@+id/mieuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/anhdoan"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/mieuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/food1"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/food3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/food2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/food3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bntyourfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Food"
+        android:textAllCaps="false"
+        android:layout_below="@id/anhdoan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/bntyourfood"
+        android:id="@+id/bntfarvorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farvorite"
+        android:textAllCaps="false"
+        android:layout_below="@id/anhdoan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/Linerconga"
+        android:orientation="horizontal"
+        android:layout_below="@id/bntyourfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+            <LinearLayout
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ga"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/chickenFried"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Fried"/>
+                <TextView
+                    android:layout_below="@id/chickenFried"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dola"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9$"
+                    android:textColor="#ff0015"/>
+                <TextView
+                    android:layout_below="@id/dola"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/deal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 Deal"
+                    android:textColor="#000"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/Linerconga2"
+        android:orientation="horizontal"
+        android:layout_below="@id/Linerconga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ga"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/chickenFried2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Fried"/>
+                <TextView
+                    android:layout_below="@id/chickenFried2"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dola2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9$"
+                    android:textColor="#ff0015"/>
+                <TextView
+                    android:layout_below="@id/dola2"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/deal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 Deal"
+                    android:textColor="#000"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linerconga3"
+        android:orientation="horizontal"
+        android:layout_below="@id/Linerconga2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_weight="7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ga"
+                android:layout_width="match_parent"
+                android:layout_height="65dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/chickenFried3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Fried"/>
+                <TextView
+                    android:layout_below="@id/chickenFried3"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dola3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9$"
+                    android:textColor="#ff0015"/>
+                <TextView
+                    android:layout_below="@id/dola3"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/deal3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 Deal"
+                    android:textColor="#000"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
